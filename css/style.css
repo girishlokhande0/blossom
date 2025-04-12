@@ -308,6 +308,7 @@ label.error{
 
 
 .btn{
+  
   font-family: 'montserratsemibold';
   position: relative;
   display: inline-block;
@@ -351,6 +352,7 @@ label.error{
 }
 
 .btn-shadow-2{
+  font-size: 19px;
   box-shadow:0 15px 34px rgba(197,164,126,0.5);
 }
 
@@ -1190,11 +1192,11 @@ label.error{
 }
 
 .arrow-left:after{
-  content:'Prev';
+  content:'';
 }
 
 .arrow-right:before{
-  content:'Next';
+  content:'';
 }
 
 .arrow-left:before,
