@@ -60,7 +60,7 @@
           <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
         </div>
       </div>
-      <div class="header-phone">+91-96570-55566</div>
+      <!-- <div class="header-phone">+91-96570-55566</div> -->
       <div class="vertical-panel"></div>
       <div class="vertical-panel-content">
         <div class="vertical-panel-info">
@@ -100,7 +100,7 @@
             </li>
             <li>
               <a href="assets/BLOSSOM-E-BROCHURE.pdf" download style="border-radius: 50px; display: inline-flex; align-items: center; justify-content: center; background-color: #c5a47e; color: #fff; padding: 10px 22px; font-size: 12px; font-weight: 600; text-decoration: none; letter-spacing: 0.5px; transition: all 0.3s ease; border: none; box-shadow: 0 10px 20px rgba(197, 164, 126, 0.3);">
-                Download Brochure
+                Download Brochure 
               </a>
             </li>
           </ul>
@@ -251,7 +251,8 @@
                 data-splitin="none" 
                 data-splitout="none" 
                 data-responsive_offset="on"
-                style="z-index: 8;"><a href="#" id="openPopupBtn" class="btn btn-shadow-2">Enquire Now<i class="icon-next"></i></a>
+                
+                style="z-index: 8;"><a href="#"   class="openPopupBtn btn btn-shadow-2">Enquire<i class="icon-next"></i></a>
               </div>
             </li>
 
@@ -322,7 +323,11 @@
                 data-splitin="none" 
                 data-splitout="none" 
                 data-responsive_offset="on"
-                style="z-index: 8;"><a href="#" id="openPopupBtn" class="btn btn-shadow-2">Enquire Now<i class="icon-next"></i></a>
+
+                style="z-index: 8;"><a href="#"  class="openPopupBtn btn btn-shadow-2">Enquire<i class="icon-next"></i></a>
+
+    
+
               </div>
             </li>
 
@@ -391,7 +396,11 @@
                 data-splitin="none" 
                 data-splitout="none" 
                 data-responsive_offset="on" 
-                style="z-index: 8;"><a href="#" id="openPopupBtn" class="btn btn-shadow-2">Enquire Now<i class="icon-next"></i></a>
+
+                style="z-index: 8;"><a href="#"  class="openPopupBtn btn btn-shadow-2">Enquire<i class="icon-next"></i></a>
+                
+
+
               </div>
             </li>
           </ul>
@@ -400,39 +409,52 @@
     </main>
 
     <section class="floating-nav-section" id="aboutussection">
-      <div class="floating-nav-wrapper">
-        <a href="#" class="enquire-tab" id="openPopupBtn" style="display: inline-block; padding: 12px 24px;text-decoration: none; font-weight: 600; border-radius: 30px; font-size: 12px; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.2s, box-shadow 0.2s; text-align: center;">ENQUIRE NOW</a>
-        <div id="backdrop" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(12px); background-color: rgba(0, 0, 0, 0.4); display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 100;">
-          <div style="background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border-radius: 16px; padding: 30px; width: 380px; max-width: 90%; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); transform: scale(0.9); opacity: 0; transition: transform 0.3s ease, opacity 0.3s ease; position: relative;" id="popup">
-            <button id="closeBtn" style="position: absolute; top: 15px; right: 15px; width: 24px; height: 24px; background: none; border: none; color: #666; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center;">×</button>
-            <h2 style="color: #333; margin-bottom: 20px; font-weight: 700; font-size: 24px; text-align: center;">Contact Us</h2>
+      <div id="backdrop" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(12px); background-color: rgba(0, 0, 0, 0.4); display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 100;">
+        <div style="background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border-radius: 16px; padding: 30px; width: 380px; max-width: 90%; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); transform: scale(0.9); opacity: 0; transition: transform 0.3s ease, opacity 0.3s ease; position: relative;" id="popup">
+          <button id="closeBtn" style="position: absolute; top: 15px; right: 15px; width: 24px; height: 24px; background: none; border: none; color: #666; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center;">×</button>
+          <h2 style="color: #333; margin-bottom: 20px; font-weight: 700; font-size: 24px; text-align: center;">Contact Us</h2>
+          
+          <form id="enquiryForm">
+            <div style="margin-bottom: 20px; position: relative;">
+              <input type="text" placeholder="Your Name" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+            </div>
             
-            <form id="enquiryForm">
-              <div style="margin-bottom: 20px; position: relative;">
-                <input type="text" placeholder="Your Name" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+            <div style="margin-bottom: 20px; position: relative;">
+              <input type="email" placeholder="Email Address" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+            </div>
+            
+            <div style="margin-bottom: 20px; position: relative;">
+              <input type="tel" placeholder="Phone Number" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+            </div>
+            
+            <button type="submit" style="width: 100%; padding: 12px; background: #c5a47e; border: none; border-radius: 8px; color: white; font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; margin-top: 10px; box-sizing: border-box;">Submit</button>
+            
+            <!-- Real Estate Logo Container -->
+            <div style="display: flex; justify-content: space-between; margin-top: 25px; align-items: center;">
+              <div style="width: 45%; height: 60px; background: rgba(255, 255, 255, 0.8); border-radius: 8px; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(0, 0, 0, 0.1);">
+                <img src="./img/blossom_logo.jpg" alt="Blossom Logo" style="max-width: 100%; max-height: 50px; object-fit: contain;">
               </div>
-              
-              <div style="margin-bottom: 20px; position: relative;">
-                <input type="email" placeholder="Email Address" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
+              <div style="width: 45%; height: 60px; background: rgba(255, 255, 255, 0.8); border-radius: 8px; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(0, 0, 0, 0.1);">
+                <img src="img/about/Rajhans-logo-main.png" alt="Blossom Logo" style="max-width: 100%; max-height: 50px; object-fit: contain;">
               </div>
-              
-              <div style="margin-bottom: 20px; position: relative;">
-                <input type="tel" placeholder="Phone Number" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
-              </div>
-              
-              <button type="submit" style="width: 100%; padding: 12px; background: #c5a47e; border: none; border-radius: 8px; color: white; font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; margin-top: 10px; box-sizing: border-box;">Submit</button>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
+      </div>
       
-        <!-- Success message -->
-        <div id="successMessage" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: rgba(46, 204, 113, 0.9); color: white; padding: 12px 24px; border-radius: 8px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
-          Thank you for contacting us! We'll get back to you shortly.
-        </div>
+      <!-- Success message -->
+      <div id="successMessage" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: rgba(46, 204, 113, 0.9); color: white; padding: 12px 24px; border-radius: 8px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
+        Thank you for contacting us! We'll get back to you shortly.
+      </div>
       
-        <script>
-          // Open popup when link is clicked
-          document.getElementById('openPopupBtn').addEventListener('click', function(e) {
+      <!-- JavaScript for handling the popup behavior -->
+      <script>
+        // Get all buttons with class 'openPopupBtn'
+        var openButtons = document.querySelectorAll('.openPopupBtn');
+        
+        // Add click event listener to each button
+        openButtons.forEach(function(button) {
+          button.addEventListener('click', function(e) {
             e.preventDefault();
             var backdrop = document.getElementById('backdrop');
             backdrop.style.opacity = '1';
@@ -443,63 +465,62 @@
               document.getElementById('popup').style.opacity = '1';
             }, 10);
           });
+        });
       
-          // Close popup when close button is clicked
-          document.getElementById('closeBtn').addEventListener('click', function() {
-            var backdrop = document.getElementById('backdrop');
+        // Close popup when close button is clicked
+        document.getElementById('closeBtn').addEventListener('click', function() {
+          var backdrop = document.getElementById('backdrop');
+          document.getElementById('popup').style.transform = 'scale(0.9)';
+          document.getElementById('popup').style.opacity = '0';
+          
+          setTimeout(function() {
+            backdrop.style.opacity = '0';
+            backdrop.style.visibility = 'hidden';
+          }, 300);
+        });
+      
+        // Close popup when clicking outside the form
+        document.getElementById('backdrop').addEventListener('click', function(e) {
+          if (e.target === this) {
             document.getElementById('popup').style.transform = 'scale(0.9)';
             document.getElementById('popup').style.opacity = '0';
             
-            setTimeout(function() {
-              backdrop.style.opacity = '0';
-              backdrop.style.visibility = 'hidden';
+            setTimeout(() => {
+              this.style.opacity = '0';
+              this.style.visibility = 'hidden';
             }, 300);
-          });
+          }
+        });
       
-          // Close popup when clicking outside the form
-          document.getElementById('backdrop').addEventListener('click', function(e) {
-            if (e.target === this) {
-              document.getElementById('popup').style.transform = 'scale(0.9)';
-              document.getElementById('popup').style.opacity = '0';
-              
-              setTimeout(() => {
-                this.style.opacity = '0';
-                this.style.visibility = 'hidden';
-              }, 300);
-            }
-          });
-      
-          // Form submission
-          document.getElementById('enquiryForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Show success message
-            var successMessage = document.getElementById('successMessage');
-            successMessage.style.opacity = '1';
-            successMessage.style.visibility = 'visible';
-            
-            // Close the popup
-            var backdrop = document.getElementById('backdrop');
-            document.getElementById('popup').style.transform = 'scale(0.9)';
-            document.getElementById('popup').style.opacity = '0';
-            
-            setTimeout(function() {
-              backdrop.style.opacity = '0';
-              backdrop.style.visibility = 'hidden';
-            }, 300);
-            
-            // Hide success message after 5 seconds
-            setTimeout(function() {
-              successMessage.style.opacity = '0';
-              successMessage.style.visibility = 'hidden';
-            }, 5000);
-            
-            // Reset form
-            this.reset();
-          });
-        </script>
-
-      </div>
+        // Form submission
+        document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Show success message
+          var successMessage = document.getElementById('successMessage');
+          successMessage.style.opacity = '1';
+          successMessage.style.visibility = 'visible';
+          
+          // Close the popup
+          var backdrop = document.getElementById('backdrop');
+          document.getElementById('popup').style.transform = 'scale(0.9)';
+          document.getElementById('popup').style.opacity = '0';
+          
+          setTimeout(function() {
+            backdrop.style.opacity = '0';
+            backdrop.style.visibility = 'hidden';
+          }, 300);
+          
+          // Hide success message after 5 seconds
+          setTimeout(function() {
+            successMessage.style.opacity = '0';
+            successMessage.style.visibility = 'hidden';
+          }, 5000);
+          
+          // Reset form
+          this.reset();
+        });
+      </script>
     </section>
 
     <div class="content">   
@@ -570,118 +591,7 @@
               </div>
             </div>
                   
-            <div class="section-content text-center">
-              <a href="#" id="openPopupBtn" class="btn btn-shadow-2">Enquire <i class="icon-next"></i></a>
-            </div>
-            <div id="backdrop" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(12px); background-color: rgba(0, 0, 0, 0.4); display: flex; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 100;">
-              <div style="background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); border-radius: 16px; padding: 30px; width: 380px; max-width: 90%; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); transform: scale(0.9); opacity: 0; transition: transform 0.3s ease, opacity 0.3s ease; position: relative;" id="popup">
-                <button id="closeBtn" style="position: absolute; top: 15px; right: 15px; width: 24px; height: 24px; background: none; border: none; color: #666; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center;">×</button>
-                <h2 style="color: #333; margin-bottom: 20px; font-weight: 700; font-size: 24px; text-align: center;">Contact Us</h2>
-                
-                <form id="enquiryForm">
-                  <div style="margin-bottom: 20px; position: relative;">
-                    <input type="text" placeholder="Your Name" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
-                  </div>
-                  
-                  <div style="margin-bottom: 20px; position: relative;">
-                    <input type="email" placeholder="Email Address" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
-                  </div>
-                  
-                  <div style="margin-bottom: 20px; position: relative;">
-                    <input type="tel" placeholder="Phone Number" required style="width: 100%; padding: 12px 15px; border: none; background: rgba(255, 255, 255, 0.8); border-radius: 8px; font-size: 16px; transition: all 0.3s; border: 1px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;">
-                  </div>
-                  
-                  <button type="submit" style="width: 100%; padding: 12px; background: #c5a47e; border: none; border-radius: 8px; color: white; font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; margin-top: 10px; box-sizing: border-box;">Submit</button>
-                </form>
-              </div>
-            </div>
-          
-            <!-- Success message -->
-            <div id="successMessage" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: rgba(46, 204, 113, 0.9); color: white; padding: 12px 24px; border-radius: 8px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;">
-              Thank you for contacting us! We'll get back to you shortly.
-            </div>
-          
-            <script>
-              // Open popup when link is clicked
-              document.getElementById('openPopupBtn').addEventListener('click', function(e) {
-                e.preventDefault();
-                var backdrop = document.getElementById('backdrop');
-                backdrop.style.opacity = '1';
-                backdrop.style.visibility = 'visible';
-                
-                setTimeout(function() {
-                  document.getElementById('popup').style.transform = 'scale(1)';
-                  document.getElementById('popup').style.opacity = '1';
-                }, 10);
-              });
-          
-              // Close popup when close button is clicked
-              document.getElementById('closeBtn').addEventListener('click', function() {
-                var backdrop = document.getElementById('backdrop');
-                document.getElementById('popup').style.transform = 'scale(0.9)';
-                document.getElementById('popup').style.opacity = '0';
-                
-                setTimeout(function() {
-                  backdrop.style.opacity = '0';
-                  backdrop.style.visibility = 'hidden';
-                }, 300);
-              });
-          
-              // Close popup when clicking outside the form
-              document.getElementById('backdrop').addEventListener('click', function(e) {
-                if (e.target === this) {
-                  document.getElementById('popup').style.transform = 'scale(0.9)';
-                  document.getElementById('popup').style.opacity = '0';
-                  
-                  setTimeout(() => {
-                    this.style.opacity = '0';
-                    this.style.visibility = 'hidden';
-                  }, 300);
-                }
-              });
-          
-              // Form submission
-              document.getElementById('enquiryForm').addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                // Show success message
-                var successMessage = document.getElementById('successMessage');
-                successMessage.style.opacity = '1';
-                successMessage.style.visibility = 'visible';
-                
-                // Close the popup
-                var backdrop = document.getElementById('backdrop');
-                document.getElementById('popup').style.transform = 'scale(0.9)';
-                document.getElementById('popup').style.opacity = '0';
-                
-                setTimeout(function() {
-                  backdrop.style.opacity = '0';
-                  backdrop.style.visibility = 'hidden';
-                }, 300);
-                
-                // Hide success message after 5 seconds
-                setTimeout(function() {
-                  successMessage.style.opacity = '0';
-                  successMessage.style.visibility = 'hidden';
-                }, 5000);
-                
-                // Reset form
-                this.reset();
-              });
-            
-              document.querySelector('.btn.btn-shadow-2#openPopupBtn').addEventListener('click', function(e) {
-                  e.preventDefault();
-                  var backdrop = document.getElementById('backdrop');
-                  backdrop.style.opacity = '1';
-                  backdrop.style.visibility = 'visible';
-                  
-                  setTimeout(function() {
-                    document.getElementById('popup').style.transform = 'scale(1)';
-                    document.getElementById('popup').style.opacity = '1';
-                  }, 10);
-                });
-            </script>
-            
+ 
           </div>
         </div>
       </section>
@@ -1504,6 +1414,16 @@
         </div>
       </section>
 
+
+      <div class="quick_contact">
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=hello" class="qwhtsapp" target="_blank">
+          <i class="fa fa-whatsapp quick_contact_icon"></i>
+        </a>
+        <a href="tel:+919745320424" class="qcall" target="_blank">
+          <i class="fa fa-phone quick_contact_icon"></i>
+        </a>
+      </div>
+
       <!-- Footer -->
 
       <footer id="footer" class="footer">     
@@ -1575,6 +1495,7 @@
 <script src="js/rev-slider/revolution.extension.video.min.js"></script> <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/interface.js"></script> 
+
 </body>
 
 <!-- Mirrored from theblackpearlspro.com/go-arch-demo/demo/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Apr 2025 15:31:16 GMT -->
