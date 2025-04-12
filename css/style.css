@@ -1549,8 +1549,8 @@ label.error{
 }
 
 .project figure:hover .project-title{
-  top:30px;
-  opacity: 0;
+  top:90%;
+  /* opacity: 0; */
 }
 
 .project figure:hover .project-category{
